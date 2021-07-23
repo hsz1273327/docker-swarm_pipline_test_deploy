@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  helloworld:
+    image: hsz1273327/docker-swarm_pipline_test:latest
+    deploy:
+      endpoint_mode: vip
+      replicas: 2
+    ports:
+      - "5000:5000"
