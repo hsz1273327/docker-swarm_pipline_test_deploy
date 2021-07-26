@@ -21,7 +21,6 @@ jobs:
       - name: Install Dependence
         run: |
           python -m pip install portainer_deploy_tool
-
       - name: Run Update
         run: |
           python -m portainer_deploy_tool createorupdatestack --base-url=${{ secrets.PORTAINER_BASE_URL }} --username=${{ secrets.PORTAINER_USER }} --password=${{ secrets.PORTAINER_PWD }}
