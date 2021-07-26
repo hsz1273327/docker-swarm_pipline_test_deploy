@@ -28,4 +28,4 @@ jobs:
           --username=${{ secrets.PORTAINER_USER }} \
           --password=${{ secrets.PORTAINER_PWD }} \
           --endpoints=6 \
-          --repository-url= https://github.com/${{ github.repository }}
+          --repository-url=https://github.com/${{ github.repository }}
