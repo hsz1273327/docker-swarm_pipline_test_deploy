@@ -4,6 +4,6 @@ services:
     image: hsz1273327/docker-swarm_pipline_test:latest
     deploy:
       endpoint_mode: vip
-      replicas: 4
+      replicas: 3
     ports:
       - "5000:5000"

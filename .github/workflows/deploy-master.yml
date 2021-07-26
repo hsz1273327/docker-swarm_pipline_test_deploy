@@ -10,7 +10,7 @@ on:
     branches: [master]
 
 jobs:
-  check:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -24,4 +24,4 @@ jobs:
 
       - name: Run Update
         run: |
-          python -m portainer_deploy_tool createorupdatestack --base_url=${{ secrets.PORTAINER_BASE_URL }} --username=${{ secrets.PORTAINER_USER }} --password=${{ secrets.PORTAINER_PWD }}
+          python -m portainer_deploy_tool createorupdatestack --base-url=${{ secrets.PORTAINER_BASE_URL }} --username=${{ secrets.PORTAINER_USER }} --password=${{ secrets.PORTAINER_PWD }}
