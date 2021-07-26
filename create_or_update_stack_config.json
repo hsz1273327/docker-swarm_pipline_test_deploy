@@ -1,6 +1,0 @@
-{
-    "base_url": "https://dev.hszofficial.site:9000",
-    "endpoints": [6],
-    "suffix": ".yaml",
-    "repository_url": "https://github.com/hsz1273327/docker-swarm_pipline_test_deploy"
-}
