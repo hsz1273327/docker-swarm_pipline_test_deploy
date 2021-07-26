@@ -1,0 +1,9 @@
+{
+    "base_url": "https://dev.hszofficial.site:9000",
+    "username": "hsz",
+    "password": "434n1wHQ",
+    "endpoints": [6],
+    "suffix": ".yaml",
+    "repository_url": "https://github.com/hsz1273327/docker-swarm_pipline_test_deploy",
+    "excepts": ["6::github_dockerhub_deploy_release"]
+}
